@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coco-h5/coco-server.git"
+    "url": "git+https://github.com/legao-h5/coco-server.git"
   },
   "author": "muwoo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coco-h5/coco-server/issues"
+    "url": "https://github.com/legao-h5/coco-server/issues"
   },
-  "homepage": "https://github.com/coco-h5/coco-server#readme",
+  "homepage": "https://github.com/legao-h5/coco-server#readme",
   "dependencies": {
     "@octokit/core": "^3.2.5",
     "download-git-repo": "^3.0.2",

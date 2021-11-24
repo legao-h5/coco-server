@@ -74,8 +74,8 @@ class ProjectService extends Service {
   async createProject(config) {
     // todo 判断是否已经存在项目，存在则不创建
     // coco-h5 替换成创建的 organizations name
-    const {data: {id, ssh_url}} = await octokit.request('POST /orgs/coco-h5/repos', {
-      org: 'coco-h5',
+    const {data: {id, ssh_url}} = await octokit.request('POST /orgs/legao-h5/repos', {
+      org: 'legao-h5',
       name: config.name
     });
 
